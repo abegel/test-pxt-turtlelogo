@@ -1,0 +1,17 @@
+{
+    "name": "test pxt-turtlelogo",
+    "dependencies": {
+        "device": "*",
+        "pxt-turtlelogo": "github:abegel/pxt-turtlelogo#master"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "blocksprj",
+    "testFiles": [
+        "test.ts"
+    ]
+}

@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="zTQq]rlzrvV{OAr0m8]l">mySprite</variable><variable type="KIND_SpriteKind" id="]`++EFW0xPL,|J.i+|B_">Player</variable><variable type="KIND_SpriteKind" id="DI5dWs~qM:@(a~vju9c.">Projectile</variable><variable type="KIND_SpriteKind" id="3yZR7NJnB9J{@yI#5?EQ">Food</variable><variable type="KIND_SpriteKind" id=":3LXKbzIOTWXAj$5|f=E">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="zTQq]rlzrvV{OAr0m8]l">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . 3 . . . . . . . . 
+. . . . . 3 3 3 . . . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . . 3 3 3 . . . . . . . 
+. . . . . . . . 3 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="hudsetScore"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sprites_heading"><value name="sprite"><block type="variables_get"><field name="VAR" id="zTQq]rlzrvV{OAr0m8]l">mySprite</field></block></value></block></value></block></next></block></statement></block><block type="gameupdate" x="40" y="280"><statement name="HANDLER"><block type="sprites_updateheading"><value name="sprite"><block type="variables_get"><field name="VAR" id="zTQq]rlzrvV{OAr0m8]l">mySprite</field></block></value><next><block type="game_control_sprite"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get"><field name="VAR" id="zTQq]rlzrvV{OAr0m8]l">mySprite</field></block></value><next><block type="hudsetScore"><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="sprites_heading"><value name="sprite"><block type="variables_get"><field name="VAR" id="zTQq]rlzrvV{OAr0m8]l">mySprite</field></block></value></block></value></block></next></block></next></block></statement></block></xml>
